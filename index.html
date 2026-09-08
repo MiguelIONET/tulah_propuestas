@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#92D050">
+  <meta name="description" content="Conoce y compara dos opciones de diseño para la página web de Tulah.">
+  <title>Tulah | Propuestas de sitio web</title>
+  <link rel="icon" href="propuesta-neumorfismo/assets/logo-tulah.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="propuesta-neumorfismo/assets/bootstrap-icons/bootstrap-icons.css">
+  <style>
+    * { box-sizing: border-box; }
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #263e20; background: #f0f6eb; }
+    body { margin: 0; min-height: 100svh; background: radial-gradient(ellipse at top right, #e2f0d9, transparent 65%); }
+    .shell { width: min(1180px, calc(100% - 48px)); margin-inline: auto; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 28px; border-bottom: 1px solid #d3e2c8; }
+    .logo { width: 126px; height: auto; }
+    .label, .eyebrow { text-transform: uppercase; font-size: .7rem; font-weight: 700; letter-spacing: .15em; }
+    .label { color: #586d4b; text-align: right; }
+    main { padding-block: 52px 64px; }
+    .eyebrow { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; color: #496536; }
+    .eyebrow::before { content: ""; width: 28px; height: 3px; background: #92D050; }
+    h1 { font-size: clamp(2.2rem, 4.5vw, 3.8rem); line-height: 1.08; letter-spacing: -.05em; margin: 0 0 20px; max-width: 850px; }
+    .intro { color: #586d4b; max-width: 660px; line-height: 1.7; margin: 0 0 38px; }
+    .proposals { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+    .proposal { min-width: 0; border: 1px solid #fff; border-radius: 24px; overflow: hidden; background: #f0f6eb; box-shadow: 12px 12px 32px #d7e1cf, -10px -10px 28px #fff; }
+    .proposal.glass { background: rgba(255,255,255,.64); box-shadow: 0 18px 50px rgba(56,87,35,.09); backdrop-filter: blur(18px); }
+    .preview { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; border-bottom: 1px solid #dae6d1; }
+    .content { padding: 28px; }
+    .number { color: #587842; font-size: .7rem; letter-spacing: .15em; font-weight: 750; }
+    h2 { font-size: 1.8rem; letter-spacing: -.04em; margin: 10px 0 12px; }
+    .description { color: #586d4b; line-height: 1.7; min-height: 3.4em; margin: 0 0 24px; }
+    .open-proposal { display: flex; justify-content: space-between; align-items: center; gap: 16px; text-decoration: none; background: #92D050; color: #233718; border: 1px solid #85bd46; border-radius: 12px; padding: 16px 20px; font-weight: 700; transition: background .2s, transform .2s; }
+    .open-proposal:hover { background: #a4dc6b; transform: translateY(-2px); }
+    a:focus-visible { outline: 3px solid #385723; outline-offset: 4px; }
+    .note { display: flex; align-items: flex-start; gap: 10px; margin-top: 30px; color: #586d4b; font-size: .82rem; line-height: 1.6; }
+    .note i { margin-top: 3px; }
+    footer { padding-block: 22px; border-top: 1px solid #d3e2c8; color: #586d4b; font-size: .75rem; }
+    @media (max-width: 720px) {
+      .shell { width: calc(100% - 32px); }
+      header { padding-block: 20px; }
+      .label { max-width: 130px; line-height: 1.5; font-size: .6rem; }
+      main { padding-block: 36px; }
+      .proposals { grid-template-columns: 1fr; gap: 24px; }
+      .content { padding: 24px; }
+      .description { min-height: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } .open-proposal:hover { transform: none; } }
+  </style>
+</head>
+<body>
+  <header class="shell">
+    <img class="logo" src="propuesta-neumorfismo/assets/logo-tulah.svg" alt="Tulah" width="280" height="100">
+    <span class="label">Presentación de propuestas</span>
+  </header>
+  <main class="shell" id="contenido">
+    <p class="eyebrow">Dos opciones para Tulah</p>
+    <h1>Conoce las propuestas<br>para tu página web.</h1>
+    <p class="intro">Abre cada opción y elige el estilo que más te guste. Ambas incluyen información de la empresa, productos, marcas y contacto por WhatsApp.</p>
+    <div class="proposals">
+      <article class="proposal">
+        <img class="preview" src="docs/previews/neumorfismo-escritorio.png" alt="Vista previa de la opción 1: estilo suave y elegante" width="1440" height="1000">
+        <div class="content">
+          <span class="number">OPCIÓN 1</span>
+          <h2>Estilo suave y elegante</h2>
+          <p class="description">Fondos claros, formas redondeadas y sombras suaves para presentar a Tulah de manera sencilla y ordenada.</p>
+          <a class="open-proposal" href="propuesta-neumorfismo/index.html"><span>Ver opción 1</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+      </article>
+      <article class="proposal glass">
+        <img class="preview" src="docs/previews/glassmorfismo-escritorio.png" alt="Vista previa de la opción 2: estilo moderno y ligero" width="1440" height="1000" loading="lazy">
+        <div class="content">
+          <span class="number">OPCIÓN 2</span>
+          <h2>Estilo moderno y ligero</h2>
+          <p class="description">Recuadros transparentes que dejan ver las imágenes de fondo, con un aspecto moderno y luminoso.</p>
+          <a class="open-proposal" href="propuesta-glassmorfismo/index.html"><span>Ver opción 2</span><i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+      </article>
+    </div>
+    <p class="note"><i class="bi bi-phone" aria-hidden="true"></i><span>Puedes ver ambas opciones desde tu celular o computadora. Usa el botón Atrás del navegador para volver a esta página.</span></p>
+  </main>
+  <footer class="shell">TULAH · Suministros y soluciones</footer>
+</body>
+</html>
