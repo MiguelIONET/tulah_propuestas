@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 560" role="img" aria-labelledby="title desc">
+  <title id="title">Equipo industrial de protección</title><desc id="desc">Composición de casco, lentes y guante de seguridad</desc>
+  <defs><linearGradient id="helmet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b1e17b"/><stop offset="1" stop-color="#78b539"/></linearGradient><filter id="shadow"><feDropShadow dx="10" dy="14" stdDeviation="16" flood-color="#6d8561" flood-opacity=".32"/></filter></defs>
+  <circle cx="310" cy="280" r="232" fill="#e2f0d9"/><circle cx="310" cy="280" r="190" fill="#f2f8ed" stroke="#fff" stroke-width="4"/>
+  <g filter="url(#shadow)"><path d="M178 278c0-84 58-151 132-151s132 67 132 151v32H178v-32Z" fill="url(#helmet)"/><path d="M153 307h314c10 0 18 8 18 18s-8 18-18 18H153c-10 0-18-8-18-18s8-18 18-18Z" fill="#385723"/><path d="M273 130h74v123h-74z" fill="#c8eba6" opacity=".75"/><path d="M299 128h22v125h-22z" fill="#fff" opacity=".35"/>
+  <path d="M206 373c59-27 149-27 208 0l-14 67c-53 22-127 22-180 0l-14-67Z" fill="#385723"/><path d="M225 385c27 4 48 18 55 40m115-40c-27 4-48 18-55 40" fill="none" stroke="#92d050" stroke-width="7" stroke-linecap="round"/>
+  <path d="M233 382c-18 5-39 23-50 54-7 21-1 48 19 54 18 5 31-8 36-24l9-31 15 18c9 11 27-1 18-14l-27-44c-5-9-11-16-20-13Z" fill="#92d050"/></g>
+  <g fill="#385723"><circle cx="118" cy="158" r="7"/><circle cx="503" cy="190" r="5"/><circle cx="478" cy="430" r="8"/></g><g stroke="#78b539" stroke-width="3" fill="none"><path d="M90 215h54M117 188v54"/><path d="m486 112 24 24m0-24-24 24"/></g>
+</svg>
